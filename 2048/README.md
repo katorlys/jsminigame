@@ -9,11 +9,17 @@ You'll get two blocks with number "2" in random places on the board at the begin
 
 If the blocks filled up the board and you can't merge any of them, you lose.  
 
-**Goal:** Get a block that reaches 2048 to win.  
-
-## Controls
+### Controls
 - Use "WASD" or arrow keys on desktop devices.
 - Swipe to play on touch-based devices.
+
+### Goal
+Get a block that reaches 2048 to win.  
+
+
+## Screenshots
+![](img/screenshot.jpeg)  
+
 
 ## Technology
 ### Stacks
@@ -23,6 +29,3 @@ If the blocks filled up the board and you can't merge any of them, you lose.
 
 ### Details
 - `High Score` is stored in local storage
-
-## Screenshots
-![](img/screenshot.jpeg)
