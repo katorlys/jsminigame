@@ -1,6 +1,19 @@
-<p align="center"><a href="#"><img src="img/icon.png" height="75"></a></p>
-<h1 align="center">2048</h1>
-<p align="center">Add up tiles to 2048!</p>
+<a name="readme-top"></a>
+<div align="center">
+
+<a href="#">
+  <img src="img/icon.png" height="75">
+</a><br>
+
+<h1>
+  2048
+</h1>
+
+<p>
+  Add up tiles to 2048!
+</p>
+
+</div>
 
 ## How to play
 Move the blocks. Blocks with the same number add up and merge into one when they touch. Add them up to reach 2048!  
@@ -29,3 +42,12 @@ Get a block that reaches 2048 to win.
 
 ### Details
 - `High Score` is stored in local storage
+
+
+<div align="right">
+
+[![BACK TO TOP][back-to-top-button]](#readme-top)
+
+</div>
+
+[back-to-top-button]: https://img.shields.io/badge/BACK_TO_TOP-151515?style=flat-square
