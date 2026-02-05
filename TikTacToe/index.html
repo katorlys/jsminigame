@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TikTacToe - jsminigame</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/ui.css">
+    <link rel="stylesheet" href="assets/css/game.css">
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+<span id="loader">Game Initializing...</span>
+
+<main>
+    <div class="wrapper">
+        <header class="hero">
+            <h2 class="title">TikTacToe</h2>
+            <span class="subtitle">Click to play</span>
+        </header>
+
+        <section>
+            <div class="frame">
+                <span id="message"></span>
+                <div id="board" tabindex="0"></div>
+            </div>
+            <span class="info">
+                <span>You: <span id="playerScore">0</span></span>
+                <span>Computer: <span id="computerScore">0</span></span>
+            </span>
+        </section>
+    </div>
+</main>
+
+<script src="assets/js/game.js"></script>
+</body>
+</html>
