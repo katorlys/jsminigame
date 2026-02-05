@@ -23,7 +23,7 @@
 <!-- Main Body -->
 
 ## Introduction
-A curated list of simple & classic mini-games made with JavaScript.
+A curated list of simple & classic mini-games written in JavaScript.
 
 Each folder contains a mini-game.
 
@@ -36,7 +36,7 @@ You can contribute to this project by adding your own mini-games.
 Just fork this repository, create a folder for your game, and start developing it!  
 Then, open a pull request in this repository, and we'll merge it after reviewing.  
 
-*Notice: You may specify a different license for your game.*  
+*Tips: You may specify a different license for your game.*  
 
 <!-- /Main Body -->
 

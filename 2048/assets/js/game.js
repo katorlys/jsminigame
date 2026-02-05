@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 let stats = false;      // Whether the game is still running
 let score = 0
 const SCORE = document.getElementById("currentScore")
-let highScore = localStorage.getItem("highScore") || 0
+let highScore = localStorage.getItem("2048_highScore") || 0
 const HIGHSCORE = document.getElementById("highScore")
 HIGHSCORE.innerHTML = highScore.toString()
 // Game board
@@ -229,7 +229,7 @@ function render() {
 function checkHighScore() {
     if (score > highScore) {
         highScore = score
-        localStorage.setItem("highScore", highScore)
+        localStorage.setItem("2048_highScore", highScore)
         HIGHSCORE.innerHTML = highScore.toString()
     }
 }

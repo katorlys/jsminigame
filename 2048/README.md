@@ -43,6 +43,9 @@ Get a block that reaches 2048 to win.
 ### Details
 - `High Score` is stored in local storage
 
+### Contributors
+- [Katorly](https://github.com/katorly)
+
 
 <div align="right">
 
